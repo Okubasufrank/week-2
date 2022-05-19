@@ -1,0 +1,179 @@
+@font-face {
+    font-family: Poppins;
+    src: url("/font/Poppins-Regular.ttf");
+}
+*{
+    font-family: Poppins;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.win{
+    margin-top: 150px;
+    color: #fcac31;
+    margin-left: 70px;
+}
+.section2{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 50px;
+}
+
+.img{
+    background-image: cover;
+    width: 100%;
+    height: 100%;
+}
+#section2{
+    display: flex;
+    margin-top: 50px;
+}
+#section1{
+    background-image: url("../pics/frank.png");
+    overflow: hidden;
+    height: 750px;
+    background-size: cover;
+    object-fit: contain;
+    
+}
+.cardParent{
+ 
+background-color: #F5F5F5;
+    width: 100%;
+}
+table{
+    width: 100%;
+}
+.lowersection h3{
+    padding-left: 40px;
+}
+table td{
+    padding: 15px;
+}
+.cardChild{
+    width:370pxpx;
+    background-color: white;
+    margin: 20px;
+    padding:0;
+    border-radius: 30px;
+    float: left;
+}
+
+.cardParent .cardChild img{
+    width: 240;
+    
+
+}
+.textSection{
+    width: 50%;
+    padding-top: 120px;
+
+padding-left: 60px;
+}
+.imageSection{
+    height: 200px;
+    width: 30%;
+  
+    overflow: hidden;
+
+
+}
+#section3{
+    background-color: #F5F5F5;
+    margin-top: 40;
+}
+.left-buuton{
+    background-color: #000000;
+    padding:15px;
+    border:none;
+    color:#faff00;
+    border-top-right-radius: 15px;
+}
+.bar{
+    background: linear-gradient(to right, rgb(187, 78, 6) 50%, rgb(31, 16, 8) 50%);;
+    height: 3px;
+    width: 100px;
+    /* background-color: #faff00; */
+}
+.imageSection img{
+    width: 100%;
+    height: 100%;
+    
+}
+.nav{
+    padding-right: 260px;
+}
+.nav a{
+    float: right;
+    text-decoration: none;
+    margin: 25px;
+    color: white;
+}
+.win p{
+    color: white;
+}
+.nav .two{
+    background-color: #faff00;
+    padding: 5px;
+    border-radius: 6px;
+    color: black;
+}
+.nav .one{
+    background-color: black;
+    padding: 5px;
+    border-radius: 6px;
+    color: #faff00;
+}
+.last{
+    background-color: #140e03;
+    width: 100%;
+    height: 350px;
+}
+.last .blue{
+    margin: 80px;
+    color: #ddcfcf;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.hr{
+    color: #ddcfcf;
+    width: 300px;
+    padding-left: 40px;
+    padding-right: 50px;
+    /* margin: 80px; */
+}
+.list .icon ul{
+    list-style: none;
+    margin: 0px 25px;
+    display: inline-flex;
+    padding-left: 40px;
+    padding-top: 0%;
+}
+.list{
+    display: flex;
+    display: inline-flex;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.list .icon ul li{
+    float: left;
+    margin: 5px;
+    padding-left: 40px;
+    color: #ddcfcf;
+    width: 30%;
+}
+.list1{
+    padding-right: 40px;
+    margin: 10;
+}
+.list1 ul li{
+    display: flex;
+    list-style: none;
+    float: right;
+    width: 70%;
+    /* margin: 50px; */
+    color: #F5F5F5;
+    /* padding-top: 10px; */
+}

@@ -1,0 +1,149 @@
+@font-face {
+    font-family: Poppins;
+    src: url("/font/Poppins-Regular.ttf");
+}
+body{
+    
+}
+*{
+    font-family: Poppins;
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: 220px;
+    padding-top: 0px;
+    /* width: 500px; */
+    background-color: #1d1402;
+}
+.main .nav{
+    padding-right: 100px;
+    padding-bottom: 80px;
+}
+.main .nav a{
+    float: right;
+    text-decoration: none;
+    margin: 25px;
+    color: white;
+    list-style: none;
+    /* padding-right: 50px; */
+}
+.nav .one{
+    background-color: #fcac31;
+    padding: 10px;
+    width: 120px;
+    border-radius: 0px;
+    border-top-right-radius: 15px;
+    text-align: center;
+}
+hr{
+    color: #ddcfcf;
+    width: 80%;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+.main .nav ul a{
+    list-style: none;
+    display: inline-flex;
+    margin: 25px;
+    color: black;
+}
+.p2{
+    width: 100%;
+    display: inline-flex;
+    /* margin: 50px; */
+}
+.p2 .one{
+    padding-left: 100px;
+    /* margin-right: 30px; */
+    color: white;
+    width: 50%;
+    float: left;
+}
+.p2 .two{
+    float: right;
+    padding-left: 835px;
+    color: white;
+    width: 50%;
+}
+
+
+.soon{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 500px;
+
+
+}
+
+.soon .img1 img{
+    margin: 20px;
+    width: 80%;
+    height: 100%;
+    background-image: cover;
+    margin-left: 150px;
+}
+
+.soon .sooner{
+    margin: 20px;
+    margin-right: 100px;
+    border-radius: 40px;
+    background-color: #d8cece;
+    width: 400px;
+    height: 100%;
+}
+
+.soon .sooner .imageS{
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 0px;
+    height: 15%;
+    margin: 15px;
+    width: 90%;
+    justify-content: space-between;
+} 
+
+/* .soon .sooner .imageS .soonest{
+    margin-right: 0px;
+    padding: 30px;
+    width: 0px;
+    border-radius: 100px;
+    background-color: #928f8c;
+    justify-content: space-between;
+} */
+
+.soon .sooner .imageS .img2{
+    border-radius: 50%;
+    float: left;
+    margin: 2%;
+    padding: 5px;
+    width: 12%;
+    /* background-image: cover; */
+    /* object-fit: contain; */
+    padding-bottom: 4px;
+    
+}
+.soon .sooner .imageS .p1{
+    padding: 3px;
+    margin: 0px;
+}
+
+
+/* .soon .sooner .imageS .soonest p1{
+    align-items: right;
+    display: inline-flex;
+    width: 50%;
+} */
+
+.soon .sect2 .tt .t1{
+    margin: 20px;
+    margin-right: 100px;
+    border-radius: 40px;
+    background-color: #d8cece;
+    width: 400px;
+    height: 100%;
+}
+.p1{
+    padding: 40px;
+}
